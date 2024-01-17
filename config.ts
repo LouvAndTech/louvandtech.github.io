@@ -31,7 +31,7 @@ export default {
     // To replace generated values or add missing data
     hireable: true,
     gender: 'male',
-    position: 'Software Developer',
+    position: 'Electronic and Computing Engineering student ',
     avatar: 'https://avatars.githubusercontent.com/u/68016832?v=4',
   },
 
