@@ -52,7 +52,6 @@ export default {
         filter: {
           repositories: [
             [
-              { attr: 'owner.login', values: ['louvandtech', 'B3 | Angers | 23-24'] },
               { attr: 'fork', values: false },
             ],
           ],
