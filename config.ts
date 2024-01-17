@@ -13,7 +13,7 @@ export default {
     pwa: {
       // If you want to change the data when generating manifest.json
       description: "Elouan Lérissel's Portfolio",
-      theme_color: '#000',
+      theme_color: '#383b8f',
     },
 
     // HTML Meta tags
@@ -72,7 +72,7 @@ export default {
     // Template name
     default: {
       configuration: {
-        githubRepositoriesMore: 2,
+        githubRepositoriesMore: 8,
         background: 'https://elouan-lerissel.fr/vcard/cover.jpeg',
       },
     },
