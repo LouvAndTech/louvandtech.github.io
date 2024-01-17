@@ -8,14 +8,6 @@ export default {
     // Format: language_TERRITORY
     locale: 'en_US', // default value
 
-    // The Open Graph protocol
-    // https://ogp.me/
-    opg: {
-      // All settings have already been added, but if you want to expand with
-      // new values or replace, you can always do it here:
-      'og:image:alt': 'Profile image',
-    },
-
     // Progressive Web Apps
     // https://web.dev/progressive-web-apps/
     pwa: {
@@ -30,11 +22,6 @@ export default {
       description: 'My Portfolio',
       viewport: 'width=device-width, initial-scale=1.0',
     },
-
-    www: {
-      // If you are using your domain and not <username> .github.io
-      domain: '',
-    },
   },
 
   // This is the main property, the data from which fill the template
@@ -45,7 +32,7 @@ export default {
     hireable: true,
     gender: 'male',
     position: 'Software Developer',
-    avatar: () => require('./public/my-image.png'),
+    avatar: 'https://avatars.githubusercontent.com/u/68016832?v=4',
   },
 
   // Here are the services from which you can automatically get the latest data
